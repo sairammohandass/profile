@@ -14,7 +14,7 @@ const BadgeCard: React.FC<BadgeCardProps> = ({ badge }) => {
           <img
             src={badge.imageUrl}
             alt={badge.title}
-            className="w-20 h-20 object-contain group-hover:scale-105 transition-transform duration-200"
+            className="w-24 h-24 object-contain group-hover:scale-110 transition-transform duration-200"
           />
         </div>
 
