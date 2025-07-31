@@ -27,7 +27,7 @@ export const badges: Badge[] = [
     imageUrl: "/cert.png",
     expirationDate: "June 13, 2026",
     isExpired: false,
-    link: "https://credly-user-badgetrackerv1coredataf.vercel.app/",
+    link: "https://credly-certificationsync-utilsversi.vercel.app/",
   },
   // {
   //   id: "4",
