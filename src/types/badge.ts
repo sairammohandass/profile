@@ -5,5 +5,5 @@ export interface Badge {
   imageUrl: string;
   expirationDate: string;
   isExpired: boolean;
-  link: "https://credly-user-badgetrackerv1coredataf.vercel.app/";
+  link: "https://credly-certificationsync-utilsversi.vercel.app/";
 }
