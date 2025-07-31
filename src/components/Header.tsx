@@ -8,11 +8,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/credly.svg" alt="Credly Logo" className="h-15 ml-20" />
-
-            {/* <a href="/" className="text-2xl font-bold text-gray-900">
-              Credly
-            </a> */}
+            <img
+              src="/credly.svg"
+              alt="Credly Logo"
+              className="h-15 ml-20 cursor-pointer"
+              onClick={() =>
+                (window.location.href = "https://info.credly.com/")
+              }
+            />
           </div>
 
           {/* Search Bar - Hidden on mobile */}
@@ -32,10 +35,22 @@ const Header = () => {
           {/* Navigation */}
           <div className="flex items-center space-x-4">
             <div className="hidden md:flex items-center space-x-4">
-              <button className="border border-teal-900 text-teal-900 px-4 py-1 rounded-md hover:bg-gray-100">
+              <button
+                className="border border-teal-900 text-teal-900 px-4 py-1 rounded-md hover:bg-gray-100"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.credly.com/users/sign_up")
+                }
+              >
                 Create Account
               </button>
-              <button className="bg-teal-900 text-white px-4 py-1 rounded-md hover:bg-teal-800">
+              <button
+                className="bg-teal-900 text-white px-4 py-1 rounded-md hover:bg-teal-800"
+                onClick={() =>
+                  (window.location.href =
+                    "https://www.credly.com/users/sign_in")
+                }
+              >
                 Sign In
               </button>
             </div>
