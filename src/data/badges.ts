@@ -24,7 +24,7 @@ export const badges: Badge[] = [
     id: "3",
     title: "SAP Certified Associate - SAP Activate Project Manager",
     issuer: "SAP",
-    imageUrl: "/public/cert.png",
+    imageUrl: "/cert.png",
     expirationDate: "June 13, 2026",
     isExpired: false,
     link: "https://credly-user-badgetrackerv1coredataf.vercel.app/",
